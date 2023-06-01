@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.0010" tests="5" failures="0">
+  <testsuite name="Root Suite" timestamp="2023-01-26T20:09:26" tests="0" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="nThNoRepeatedValue" timestamp="2023-01-26T20:09:26" tests="3" file="/Users/vadim/Documents/EPAM_UPSkill_Me/Intro-To-JavaScript/7.3.functions/test/index.js" time="0.0000" failures="0">
+    <testcase name="nThNoRepeatedValue should return 43 as the 2nd element from given array [321, 43, 3213, 1689]" time="0.0000" classname="should return 43 as the 2nd element from given array [321, 43, 3213, 1689]">
+    </testcase>
+    <testcase name="nThNoRepeatedValue should return 4 as the 1st element from given array [1, 1, 3, 4, 3, 10]" time="0.0000" classname="should return 4 as the 1st element from given array [1, 1, 3, 4, 3, 10]">
+    </testcase>
+    <testcase name="nThNoRepeatedValue should return 2 as the 1st element from given array [1, 2, 1, 1]" time="0.0000" classname="should return 2 as the 1st element from given array [1, 2, 1, 1]">
+    </testcase>
+  </testsuite>
+  <testsuite name="primeValues" timestamp="2023-01-26T20:09:26" tests="2" file="/Users/vadim/Documents/EPAM_UPSkill_Me/Intro-To-JavaScript/7.3.functions/test/index.js" time="0.0010" failures="0">
+    <testcase name="primeValues should return array of boolean for given array [4, 2, 7, 10, 13]" time="0.0010" classname="should return array of boolean for given array [4, 2, 7, 10, 13]">
+    </testcase>
+    <testcase name="primeValues should return array of boolean for given array [17, 3, 21]" time="0.0000" classname="should return array of boolean for given array [17, 3, 21]">
+    </testcase>
+  </testsuite>
+</testsuites>

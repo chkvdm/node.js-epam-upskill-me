@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.0010" tests="5" failures="0">
+  <testsuite name="Root Suite" timestamp="2023-01-23T21:41:59" tests="0" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="createNumberGenerator" timestamp="2023-01-23T21:41:59" tests="2" file="/Users/vadim/Documents/EPAM_UPSkill_Me/Intro-To-JavaScript/8.1.scope/test/index.js" time="0.0000" failures="0">
+    <testcase name="createNumberGenerator should create generator with start value 10" time="0.0000" classname="should create generator with start value 10">
+    </testcase>
+    <testcase name="createNumberGenerator should create generator with default start value" time="0.0000" classname="should create generator with default start value">
+    </testcase>
+  </testsuite>
+  <testsuite name="multiply" timestamp="2023-01-23T21:41:59" tests="3" file="/Users/vadim/Documents/EPAM_UPSkill_Me/Intro-To-JavaScript/8.1.scope/test/index.js" time="0.0010" failures="0">
+    <testcase name="multiply should return 48 for given input 2,4,6" time="0.0000" classname="should return 48 for given input 2,4,6">
+    </testcase>
+    <testcase name="multiply should return 54 for given input 3,2,9" time="0.0000" classname="should return 54 for given input 3,2,9">
+    </testcase>
+    <testcase name="multiply should return 48 for given input 16,22,2" time="0.0010" classname="should return 48 for given input 16,22,2">
+    </testcase>
+  </testsuite>
+</testsuites>

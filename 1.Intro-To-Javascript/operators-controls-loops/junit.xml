@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.0010" tests="11" failures="0">
+  <testsuite name="Root Suite" timestamp="2022-10-25T20:11:47" tests="0" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="arrayDiff" timestamp="2022-10-25T20:11:47" tests="4" file="/Users/vadim/Documents/EPAM_UPSkill_Me/Intro-To-JavaScript/7.2.operators-controls-loops/test/index.js" time="0.0000" failures="0">
+    <testcase name="arrayDiff should return [1,2] for given input [1,2,3], [3]" time="0.0000" classname="should return [1,2] for given input [1,2,3], [3]">
+    </testcase>
+    <testcase name="arrayDiff should return [&quot;a&quot;] for given input [&quot;b&quot;, &quot;c&quot;], [&quot;a&quot;, &quot;b&quot;, &quot;c&quot;]" time="0.0000" classname="should return [&quot;a&quot;] for given input [&quot;b&quot;, &quot;c&quot;], [&quot;a&quot;, &quot;b&quot;, &quot;c&quot;]">
+    </testcase>
+    <testcase name="arrayDiff should return [1, 2, 3, 4] for given input [1, 2], [3, 4]" time="0.0000" classname="should return [1, 2, 3, 4] for given input [1, 2], [3, 4]">
+    </testcase>
+    <testcase name="arrayDiff should return [] for given input [1, 2], [1, 2]" time="0.0000" classname="should return [] for given input [1, 2], [1, 2]">
+    </testcase>
+  </testsuite>
+  <testsuite name="evenOrOdd" timestamp="2022-10-25T20:11:47" tests="3" file="/Users/vadim/Documents/EPAM_UPSkill_Me/Intro-To-JavaScript/7.2.operators-controls-loops/test/index.js" time="0.0010" failures="0">
+    <testcase name="evenOrOdd should check even odd for given input 0, 5" time="0.0010" classname="should check even odd for given input 0, 5">
+    </testcase>
+    <testcase name="evenOrOdd should check even odd for given input 5, 7" time="0.0000" classname="should check even odd for given input 5, 7">
+    </testcase>
+    <testcase name="evenOrOdd should check even odd for given input 11, 14" time="0.0000" classname="should check even odd for given input 11, 14">
+    </testcase>
+  </testsuite>
+  <testsuite name="rangeSum" timestamp="2022-10-25T20:11:47" tests="4" file="/Users/vadim/Documents/EPAM_UPSkill_Me/Intro-To-JavaScript/7.2.operators-controls-loops/test/index.js" time="0.0000" failures="0">
+    <testcase name="rangeSum should return 45 for given input 5, 10" time="0.0000" classname="should return 45 for given input 5, 10">
+    </testcase>
+    <testcase name="rangeSum should return 15 for given input 0, 5" time="0.0000" classname="should return 15 for given input 0, 5">
+    </testcase>
+    <testcase name="rangeSum should return 1295 for given input 20, 54" time="0.0000" classname="should return 1295 for given input 20, 54">
+    </testcase>
+    <testcase name="rangeSum should return 33 for given input 10, 12" time="0.0000" classname="should return 33 for given input 10, 12">
+    </testcase>
+  </testsuite>
+</testsuites>

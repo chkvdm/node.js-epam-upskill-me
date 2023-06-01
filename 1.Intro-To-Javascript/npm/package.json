@@ -1,0 +1,17 @@
+{
+  "name": "npm-9.1-test",
+  "version": "1.0.0",
+  "description": "intro-to-JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch db.json"
+  },
+  "author": "VadikVR6",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "rxjs": "^7.8.0"
+  }
+}

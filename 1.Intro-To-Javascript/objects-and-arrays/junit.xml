@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.0020" tests="7" failures="0">
+  <testsuite name="Root Suite" timestamp="2022-11-01T09:48:49" tests="0" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="numberOfDuplicates" timestamp="2022-11-01T09:48:49" tests="3" file="/Users/vadim/Documents/EPAM_UPSkill_Me/Intro-To-JavaScript/7.1.objects-and-arrays/test/index.js" time="0.0010" failures="0">
+    <testcase name="numberOfDuplicates should count number of duplicates for given array [1, 2, 1, 1, 3]" time="0.0010" classname="should count number of duplicates for given array [1, 2, 1, 1, 3]">
+    </testcase>
+    <testcase name="numberOfDuplicates should count number of duplicates for given array [&apos;a&apos;, &apos;a&apos;, &apos;aa&apos;, &apos;a&apos;, &apos;aa&apos;]" time="0.0000" classname="should count number of duplicates for given array [&apos;a&apos;, &apos;a&apos;, &apos;aa&apos;, &apos;a&apos;, &apos;aa&apos;]">
+    </testcase>
+    <testcase name="numberOfDuplicates should count number of duplicates for given array [1, -3, -3]" time="0.0000" classname="should count number of duplicates for given array [1, -3, -3]">
+    </testcase>
+  </testsuite>
+  <testsuite name="countObjectStrength" timestamp="2022-11-01T09:48:49" tests="4" file="/Users/vadim/Documents/EPAM_UPSkill_Me/Intro-To-JavaScript/7.1.objects-and-arrays/test/index.js" time="0.0010" failures="0">
+    <testcase name="countObjectStrength should count object strengths for given object Array" time="0.0000" classname="should count object strengths for given object Array">
+    </testcase>
+    <testcase name="countObjectStrength should count object strengths for given object Array.prototype" time="0.0010" classname="should count object strengths for given object Array.prototype">
+    </testcase>
+    <testcase name="countObjectStrength should count object strengths for given object []" time="0.0000" classname="should count object strengths for given object []">
+    </testcase>
+    <testcase name="countObjectStrength should count object strengths for given object {some: &apos;value&apos;}" time="0.0000" classname="should count object strengths for given object {some: &apos;value&apos;}">
+    </testcase>
+  </testsuite>
+</testsuites>

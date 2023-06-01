@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.0010" tests="10" failures="0">
+  <testsuite name="Root Suite" timestamp="2023-01-26T20:12:42" tests="0" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="isValidJSON" timestamp="2023-01-26T20:12:42" tests="4" file="/Users/vadim/Documents/EPAM_UPSkill_Me/Intro-To-JavaScript/9.1.es6/test/index.js" time="0.0010" failures="0">
+    <testcase name="isValidJSON should return true for given input [1, 2, 3]" time="0.0010" classname="should return true for given input [1, 2, 3]">
+    </testcase>
+    <testcase name="isValidJSON should return false for given input [1 2 3]" time="0.0000" classname="should return false for given input [1 2 3]">
+    </testcase>
+    <testcase name="isValidJSON should return false for given input {a: 2}" time="0.0000" classname="should return false for given input {a: 2}">
+    </testcase>
+    <testcase name="isValidJSON should return true for given input {&quot;a&quot;: 2}" time="0.0000" classname="should return true for given input {&quot;a&quot;: 2}">
+    </testcase>
+  </testsuite>
+  <testsuite name="greeting" timestamp="2023-01-26T20:12:42" tests="2" file="/Users/vadim/Documents/EPAM_UPSkill_Me/Intro-To-JavaScript/9.1.es6/test/index.js" time="0.0000" failures="0">
+    <testcase name="greeting should prepare string for given input {name: &quot;Bill&quot;, surname: &quot;Jacobson&quot;, age: 33}" time="0.0000" classname="should prepare string for given input {name: &quot;Bill&quot;, surname: &quot;Jacobson&quot;, age: 33}">
+    </testcase>
+    <testcase name="greeting should prepare string for given input {name: &quot;Jim&quot;, surname: &quot;Power&quot;, age: 11}" time="0.0000" classname="should prepare string for given input {name: &quot;Jim&quot;, surname: &quot;Power&quot;, age: 11}">
+    </testcase>
+  </testsuite>
+  <testsuite name="unique numbers" timestamp="2023-01-26T20:12:42" tests="3" file="/Users/vadim/Documents/EPAM_UPSkill_Me/Intro-To-JavaScript/9.1.es6/test/index.js" time="0.0000" failures="0">
+    <testcase name="unique numbers should return array [1, 2, 3] for given array [1, 2, 1, 1, 3]" time="0.0000" classname="should return array [1, 2, 3] for given array [1, 2, 1, 1, 3]">
+    </testcase>
+    <testcase name="unique numbers should return array [&apos;a&apos;, &apos;aa&apos;] for given array [&apos;a&apos;, &apos;a&apos;, &apos;aa&apos;, &apos;a&apos;, &apos;aa&apos;]" time="0.0000" classname="should return array [&apos;a&apos;, &apos;aa&apos;] for given array [&apos;a&apos;, &apos;a&apos;, &apos;aa&apos;, &apos;a&apos;, &apos;aa&apos;]">
+    </testcase>
+    <testcase name="unique numbers should return array [1, -3] for given array [1, -3, -3]" time="0.0000" classname="should return array [1, -3] for given array [1, -3, -3]">
+    </testcase>
+  </testsuite>
+  <testsuite name="generator" timestamp="2023-01-26T20:12:42" tests="1" file="/Users/vadim/Documents/EPAM_UPSkill_Me/Intro-To-JavaScript/9.1.es6/test/index.js" time="0.0000" failures="0">
+    <testcase name="generator should return iterator" time="0.0000" classname="should return iterator">
+    </testcase>
+  </testsuite>
+</testsuites>
