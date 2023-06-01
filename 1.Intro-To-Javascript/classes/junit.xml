@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.0030" tests="13" failures="0">
+  <testsuite name="Root Suite" timestamp="2023-01-24T10:33:57" tests="0" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Guest" timestamp="2023-01-24T10:33:57" tests="3" file="/Users/vadim/Documents/EPAM_UPSkill_Me/Intro-To-JavaScript/8.2.classes/test/index.js" time="0.0010" failures="0">
+    <testcase name="Guest should have method getTask" time="0.0000" classname="should have method getTask">
+    </testcase>
+    <testcase name="Guest should not implement method createTask" time="0.0010" classname="should not implement method createTask">
+    </testcase>
+    <testcase name="Guest should not implement method changeType" time="0.0000" classname="should not implement method changeType">
+    </testcase>
+  </testsuite>
+  <testsuite name="User" timestamp="2023-01-24T10:33:57" tests="3" file="/Users/vadim/Documents/EPAM_UPSkill_Me/Intro-To-JavaScript/8.2.classes/test/index.js" time="0.0010" failures="0">
+    <testcase name="User should have method getTask" time="0.0000" classname="should have method getTask">
+    </testcase>
+    <testcase name="User should have method createTask" time="0.0000" classname="should have method createTask">
+    </testcase>
+    <testcase name="User should not implement method changeType" time="0.0010" classname="should not implement method changeType">
+    </testcase>
+  </testsuite>
+  <testsuite name="Admin" timestamp="2023-01-24T10:33:57" tests="7" file="/Users/vadim/Documents/EPAM_UPSkill_Me/Intro-To-JavaScript/8.2.classes/test/index.js" time="0.0010" failures="0">
+    <testcase name="Admin should have method getArray" time="0.0000" classname="should have method getArray">
+    </testcase>
+    <testcase name="Admin should return instance of Guest as a first element by the method getArray" time="0.0010" classname="should return instance of Guest as a first element by the method getArray">
+    </testcase>
+    <testcase name="Admin should return instance of User as a third element by the method getArray" time="0.0000" classname="should return instance of User as a third element by the method getArray">
+    </testcase>
+    <testcase name="Admin should return array of roles by the method getArray" time="0.0000" classname="should return array of roles by the method getArray">
+    </testcase>
+    <testcase name="Admin should change type of role from Guest to User" time="0.0000" classname="should change type of role from Guest to User">
+    </testcase>
+    <testcase name="Admin should change type of role from User to Guest" time="0.0000" classname="should change type of role from User to Guest">
+    </testcase>
+    <testcase name="Admin should move tasks from Guest to User, when change role" time="0.0000" classname="should move tasks from Guest to User, when change role">
+    </testcase>
+  </testsuite>
+</testsuites>

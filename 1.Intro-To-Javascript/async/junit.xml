@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="2.6130" tests="19" failures="0">
+  <testsuite name="Root Suite" timestamp="2023-01-25T07:37:42" tests="0" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="strategies" timestamp="2023-01-25T07:37:42" tests="6" file="/Users/vadim/Documents/EPAM_UPSkill_Me/Intro-To-JavaScript/8.4.async/test/index.js" time="0.0000" failures="0">
+    <testcase name="strategies should return 3 for a string &quot;1 2 3&quot; when apply callback1" time="0.0000" classname="should return 3 for a string &quot;1 2 3&quot; when apply callback1">
+    </testcase>
+    <testcase name="strategies should return 6 for a string &quot;1 22 333&quot; when apply callback1" time="0.0000" classname="should return 6 for a string &quot;1 22 333&quot; when apply callback1">
+    </testcase>
+    <testcase name="strategies should return 1 for a string &quot;1 2 3&quot; when apply callback2" time="0.0000" classname="should return 1 for a string &quot;1 2 3&quot; when apply callback2">
+    </testcase>
+    <testcase name="strategies should return 24 for a string &quot;1 22 333 4444&quot; when apply callback1" time="0.0000" classname="should return 24 for a string &quot;1 22 333 4444&quot; when apply callback1">
+    </testcase>
+    <testcase name="strategies should return 2 for a string &quot;11&quot; when apply callback1" time="0.0000" classname="should return 2 for a string &quot;11&quot; when apply callback1">
+    </testcase>
+    <testcase name="strategies should return 2 for a string &quot;11&quot; when apply callback2" time="0.0000" classname="should return 2 for a string &quot;11&quot; when apply callback2">
+    </testcase>
+  </testsuite>
+  <testsuite name="mocker" timestamp="2023-01-25T07:37:42" tests="0" file="/Users/vadim/Documents/EPAM_UPSkill_Me/Intro-To-JavaScript/8.4.async/test/index.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="users mocker" timestamp="2023-01-25T07:37:42" tests="2" file="/Users/vadim/Documents/EPAM_UPSkill_Me/Intro-To-JavaScript/8.4.async/test/index.js" time="1.0040" failures="0">
+    <testcase name="mocker users mocker should return users data" time="1.0040" classname="should return users data">
+    </testcase>
+    <testcase name="mocker users mocker should return users data in asynchronous way" time="0.0000" classname="should return users data in asynchronous way">
+    </testcase>
+  </testsuite>
+  <testsuite name="summarize1" timestamp="2023-01-25T07:37:43" tests="4" file="/Users/vadim/Documents/EPAM_UPSkill_Me/Intro-To-JavaScript/8.4.async/test/index.js" time="0.3030" failures="0">
+    <testcase name="summarize1 should return 9 for given promises" time="0.0010" classname="should return 9 for given promises">
+    </testcase>
+    <testcase name="summarize1 should return 6 for given promises" time="0.0000" classname="should return 6 for given promises">
+    </testcase>
+    <testcase name="summarize1 should return 11 for given promises" time="0.0000" classname="should return 11 for given promises">
+    </testcase>
+    <testcase name="summarize1 should return 16 for given promises" time="0.3020" classname="should return 16 for given promises">
+    </testcase>
+  </testsuite>
+  <testsuite name="summarize2" timestamp="2023-01-25T07:37:43" tests="7" file="/Users/vadim/Documents/EPAM_UPSkill_Me/Intro-To-JavaScript/8.4.async/test/index.js" time="1.3060" failures="0">
+    <testcase name="summarize2 should return 9 for given promises" time="0.0000" classname="should return 9 for given promises">
+    </testcase>
+    <testcase name="summarize2 should return 6 for given promises" time="0.0000" classname="should return 6 for given promises">
+    </testcase>
+    <testcase name="summarize2 should return 11 for given promises" time="0.0000" classname="should return 11 for given promises">
+    </testcase>
+    <testcase name="summarize2 should return 16 for given promises" time="0.3020" classname="should return 16 for given promises">
+    </testcase>
+    <testcase name="summarize2 should return 23 for given promises" time="0.5010" classname="should return 23 for given promises">
+    </testcase>
+    <testcase name="summarize2 should return 16 for given promises" time="0.5020" classname="should return 16 for given promises">
+    </testcase>
+    <testcase name="summarize2 should return 42 for given promises" time="0.0010" classname="should return 42 for given promises">
+    </testcase>
+  </testsuite>
+</testsuites>
