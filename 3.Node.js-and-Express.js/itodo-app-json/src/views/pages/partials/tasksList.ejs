@@ -1,0 +1,15 @@
+<h2> Todo List </h2>
+
+<% if(!tasksAllNames.length) {%>
+  <h3 class="no-tasks">There is no tasks.</h3>
+  <% } else {%>
+    <%tasksAllNames.forEach(function(task) {%>
+      <ul class="list">
+        <li class="list__item">
+          <div class="checkbox"></div> <span class="list__item-text">
+            <%=task.taskName%>
+          </span>
+        </li>
+      </ul>
+  <%})%>
+<%}%>

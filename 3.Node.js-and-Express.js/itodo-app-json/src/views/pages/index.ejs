@@ -1,0 +1,36 @@
+<main class="main">
+
+  <%if(locals.errors) {%>
+    <div class="alert alert--error">
+      <ul>
+        <% errors.forEach(function (error) {%>
+          <li>
+            <%= error.msg %>
+          </li>
+        <%})%>
+      </ul>
+    </div>
+  <%} else if (locals.successMessage){%>
+    <div class="alert alert--success">
+      <%= successMessage %>
+    </div>
+  <%}%>
+
+  <div class="task-form">
+      <form method="POST">
+          <input class="input" type="text" name="task" placeholder="I need to...">
+          <button class="task-form__button button" type="submit">Create</button>
+      </form>
+  </div>
+
+  <%- include('./partials/tasksList') %>
+
+</main>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="/scripts/index.js">
+</script>
+</body>
+
+</html>
