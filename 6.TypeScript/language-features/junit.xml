@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.0010" tests="11" failures="0">
+  <testsuite name="Root Suite" timestamp="2023-04-27T08:09:46" tests="0" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="times" timestamp="2023-04-27T08:09:46" tests="3" file="/Users/vadim/Documents/EPAM_UPSkill_Me/7.TypeScript/language-features/test/index.ts" time="0.0010" failures="0">
+    <testcase name="times should copy array 2 times" time="0.0010" classname="should copy array 2 times">
+    </testcase>
+    <testcase name="times should copy array 3 times" time="0.0000" classname="should copy array 3 times">
+    </testcase>
+    <testcase name="times should copy array 2 times when no times count specified" time="0.0000" classname="should copy array 2 times when no times count specified">
+    </testcase>
+  </testsuite>
+  <testsuite name="logger" timestamp="2023-04-27T08:09:46" tests="3" file="/Users/vadim/Documents/EPAM_UPSkill_Me/7.TypeScript/language-features/test/index.ts" time="0.0000" failures="0">
+    <testcase name="logger should log user events" time="0.0000" classname="should log user events">
+    </testcase>
+    <testcase name="logger should log auth events" time="0.0000" classname="should log auth events">
+    </testcase>
+    <testcase name="logger should log global events" time="0.0000" classname="should log global events">
+    </testcase>
+  </testsuite>
+  <testsuite name="everyNth" timestamp="2023-04-27T08:09:46" tests="5" file="/Users/vadim/Documents/EPAM_UPSkill_Me/7.TypeScript/language-features/test/index.ts" time="0.0000" failures="0">
+    <testcase name="everyNth should return [1, 2, 3, 4, 5, 6] for given input [1, 2, 3, 4, 5, 6]" time="0.0000" classname="should return [1, 2, 3, 4, 5, 6] for given input [1, 2, 3, 4, 5, 6]">
+    </testcase>
+    <testcase name="everyNth should return [2, 4, 6] for given input [1, 2, 3, 4, 5, 6]" time="0.0000" classname="should return [2, 4, 6] for given input [1, 2, 3, 4, 5, 6]">
+    </testcase>
+    <testcase name="everyNth should return [3, 6] for given input [1, 2, 3, 4, 5, 6]" time="0.0000" classname="should return [3, 6] for given input [1, 2, 3, 4, 5, 6]">
+    </testcase>
+    <testcase name="everyNth should return [5] for given input [1, 2, 3, 4, 5, 6]" time="0.0000" classname="should return [5] for given input [1, 2, 3, 4, 5, 6]">
+    </testcase>
+    <testcase name="everyNth should return [] for given input [1]" time="0.0000" classname="should return [] for given input [1]">
+    </testcase>
+  </testsuite>
+</testsuites>

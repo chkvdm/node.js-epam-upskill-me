@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.0000" tests="7" failures="0">
+  <testsuite name="Root Suite" timestamp="2023-05-01T12:35:32" tests="0" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="test getProperty" timestamp="2023-05-01T12:35:32" tests="4" file="/Users/vadim/Documents/EPAM_UPSkill_Me/7.TypeScript/generics/test/index.ts" time="0.0000" failures="0">
+    <testcase name="test getProperty should get string from object" time="0.0000" classname="should get string from object">
+    </testcase>
+    <testcase name="test getProperty should get array from object" time="0.0000" classname="should get array from object">
+    </testcase>
+    <testcase name="test getProperty should get object from array" time="0.0000" classname="should get object from array">
+    </testcase>
+    <testcase name="test getProperty should get object from object" time="0.0000" classname="should get object from object">
+    </testcase>
+  </testsuite>
+  <testsuite name="test queue" timestamp="2023-05-01T12:35:32" tests="3" file="/Users/vadim/Documents/EPAM_UPSkill_Me/7.TypeScript/generics/test/index.ts" time="0.0000" failures="0">
+    <testcase name="test queue should return whole queue" time="0.0000" classname="should return whole queue">
+    </testcase>
+    <testcase name="test queue should return primitive value from queue when pop()" time="0.0000" classname="should return primitive value from queue when pop()">
+    </testcase>
+    <testcase name="test queue should return reduced queue state" time="0.0000" classname="should return reduced queue state">
+    </testcase>
+  </testsuite>
+</testsuites>

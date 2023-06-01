@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.0010" tests="14" failures="0">
+  <testsuite name="Root Suite" timestamp="2023-05-02T11:59:16" tests="0" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="array flatten" timestamp="2023-05-02T11:59:16" tests="5" file="/Users/vadim/Documents/EPAM_UPSkill_Me/7.TypeScript/modules/test/index.ts" time="0.0010" failures="0">
+    <testcase name="array flatten should return [1,2,3] for given input [[1],[2],[3]]" time="0.0000" classname="should return [1,2,3] for given input [[1],[2],[3]]">
+    </testcase>
+    <testcase name="array flatten should return [4,5,6] for given input [[4],5,[6]]" time="0.0000" classname="should return [4,5,6] for given input [[4],5,[6]]">
+    </testcase>
+    <testcase name="array flatten should return [1,2,3,4,5,6] for given input [[1],2,[3,4,[5]],[[[6]]]]" time="0.0010" classname="should return [1,2,3,4,5,6] for given input [[1],2,[3,4,[5]],[[[6]]]]">
+    </testcase>
+    <testcase name="array flatten should return [&quot;a&quot;, &quot;b&quot;, &quot;c&quot;, &quot;d&quot;] for given input [[&quot;a&quot;], [&quot;b&quot;, [&quot;c&quot;, [[&quot;d&quot;]]]]]" time="0.0000" classname="should return [&quot;a&quot;, &quot;b&quot;, &quot;c&quot;, &quot;d&quot;] for given input [[&quot;a&quot;], [&quot;b&quot;, [&quot;c&quot;, [[&quot;d&quot;]]]]]">
+    </testcase>
+    <testcase name="array flatten should return [&quot;a&quot;, &quot;b&quot;, &quot;c&quot;, &quot;d&quot;] for given input [[&quot;a&quot;], [&quot;b&quot;, [&quot;c&quot;, [[&quot;d&quot;]]]]]" time="0.0000" classname="should return [&quot;a&quot;, &quot;b&quot;, &quot;c&quot;, &quot;d&quot;] for given input [[&quot;a&quot;], [&quot;b&quot;, [&quot;c&quot;, [[&quot;d&quot;]]]]]">
+    </testcase>
+  </testsuite>
+  <testsuite name="array take" timestamp="2023-05-02T11:59:16" tests="3" file="/Users/vadim/Documents/EPAM_UPSkill_Me/7.TypeScript/modules/test/index.ts" time="0.0000" failures="0">
+    <testcase name="array take should return first 2 elements [1,2] for given input [1,2,3,4]" time="0.0000" classname="should return first 2 elements [1,2] for given input [1,2,3,4]">
+    </testcase>
+    <testcase name="array take should return first 3 elements [&quot;a&quot;, &quot;b&quot;, &quot;c&quot;] for given input [&quot;a&quot;, &quot;b&quot;, &quot;c&quot;, &quot;d&quot;, &quot;e&quot;]" time="0.0000" classname="should return first 3 elements [&quot;a&quot;, &quot;b&quot;, &quot;c&quot;] for given input [&quot;a&quot;, &quot;b&quot;, &quot;c&quot;, &quot;d&quot;, &quot;e&quot;]">
+    </testcase>
+    <testcase name="array take should return first element [{a: 1}] for given input [{a: 1}, {a: 2}, {a: 3}]" time="0.0000" classname="should return first element [{a: 1}] for given input [{a: 1}, {a: 2}, {a: 3}]">
+    </testcase>
+  </testsuite>
+  <testsuite name="object clone" timestamp="2023-05-02T11:59:16" tests="3" file="/Users/vadim/Documents/EPAM_UPSkill_Me/7.TypeScript/modules/test/index.ts" time="0.0000" failures="0">
+    <testcase name="object clone should clone object {a: 2, b: 3}" time="0.0000" classname="should clone object {a: 2, b: 3}">
+    </testcase>
+    <testcase name="object clone should deeply clone object {a: 2, b: {c: 3}}" time="0.0000" classname="should deeply clone object {a: 2, b: {c: 3}}">
+    </testcase>
+    <testcase name="object clone should have equal structure after cloning object {a: 2, b: {c: 3}}" time="0.0000" classname="should have equal structure after cloning object {a: 2, b: {c: 3}}">
+    </testcase>
+  </testsuite>
+  <testsuite name="object invert" timestamp="2023-05-02T11:59:16" tests="3" file="/Users/vadim/Documents/EPAM_UPSkill_Me/7.TypeScript/modules/test/index.ts" time="0.0000" failures="0">
+    <testcase name="object invert should return {a: 1, b: 2, c: 3} for given input {1: &quot;a&quot;, 2: &quot;b&quot;, 3: &quot;c&quot;}" time="0.0000" classname="should return {a: 1, b: 2, c: 3} for given input {1: &quot;a&quot;, 2: &quot;b&quot;, 3: &quot;c&quot;}">
+    </testcase>
+    <testcase name="object invert should return {one: &quot;first&quot;, two: &quot;second&quot;} for given input {first: &quot;one&quot;, second: &quot;two&quot;}" time="0.0000" classname="should return {one: &quot;first&quot;, two: &quot;second&quot;} for given input {first: &quot;one&quot;, second: &quot;two&quot;}">
+    </testcase>
+    <testcase name="object invert should return {1: &quot;a&quot;, 2: &quot;b&quot;, 3: &quot;c&quot;} for given input {a: 1, b: 2, c: 3}" time="0.0000" classname="should return {1: &quot;a&quot;, 2: &quot;b&quot;, 3: &quot;c&quot;} for given input {a: 1, b: 2, c: 3}">
+    </testcase>
+  </testsuite>
+</testsuites>

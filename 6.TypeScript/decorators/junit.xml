@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.0010" tests="5" failures="0">
+  <testsuite name="Root Suite" timestamp="2023-05-02T09:14:44" tests="0" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="once" timestamp="2023-05-02T09:14:44" tests="3" file="/Users/vadim/Documents/EPAM_UPSkill_Me/7.TypeScript/decorators/test/index.ts" time="0.0010" failures="0">
+    <testcase name="once should call method once with single argument" time="0.0010" classname="should call method once with single argument">
+    </testcase>
+    <testcase name="once should call method once with multiple arguments" time="0.0000" classname="should call method once with multiple arguments">
+    </testcase>
+    <testcase name="once should return always return first execution result" time="0.0000" classname="should return always return first execution result">
+    </testcase>
+  </testsuite>
+  <testsuite name="identifier" timestamp="2023-05-02T09:14:44" tests="2" file="/Users/vadim/Documents/EPAM_UPSkill_Me/7.TypeScript/decorators/test/index.ts" time="0.0000" failures="0">
+    <testcase name="identifier should return Test-example from identify" time="0.0000" classname="should return Test-example from identify">
+    </testcase>
+    <testcase name="identifier should return ClassA-prototype from identify" time="0.0000" classname="should return ClassA-prototype from identify">
+    </testcase>
+  </testsuite>
+</testsuites>

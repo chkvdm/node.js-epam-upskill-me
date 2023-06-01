@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.0010" tests="9" failures="0">
+  <testsuite name="Root Suite" timestamp="2023-05-02T14:19:01" tests="0" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="countdown" timestamp="2023-05-02T14:19:01" tests="4" file="/Users/vadim/Documents/EPAM_UPSkill_Me/7.TypeScript/upgrades-and-features/test/index.ts" time="0.0010" failures="0">
+    <testcase name="countdown should return [10,9,8,7,6,5,4,3,2,1] for given input (10, 1)" time="0.0010" classname="should return [10,9,8,7,6,5,4,3,2,1] for given input (10, 1)">
+    </testcase>
+    <testcase name="countdown should return [5,4,3,2,1,0] for given input (5, 0)" time="0.0000" classname="should return [5,4,3,2,1,0] for given input (5, 0)">
+    </testcase>
+    <testcase name="countdown should return [15,14,13,12,11,10] for given input (15, 10)" time="0.0000" classname="should return [15,14,13,12,11,10] for given input (15, 10)">
+    </testcase>
+    <testcase name="countdown should return {value: 3, done: false} for given input (3, 0)" time="0.0000" classname="should return {value: 3, done: false} for given input (3, 0)">
+    </testcase>
+  </testsuite>
+  <testsuite name="countOccurrences" timestamp="2023-05-02T14:19:01" tests="5" file="/Users/vadim/Documents/EPAM_UPSkill_Me/7.TypeScript/upgrades-and-features/test/index.ts" time="0.0000" failures="0">
+    <testcase name="countOccurrences should return 3 for given input ([1, 1, 2, 1, 2, 3], 1)" time="0.0000" classname="should return 3 for given input ([1, 1, 2, 1, 2, 3], 1)">
+    </testcase>
+    <testcase name="countOccurrences should return 2 for given input ([1, 1, 2, 1, 2, 3], 2)" time="0.0000" classname="should return 2 for given input ([1, 1, 2, 1, 2, 3], 2)">
+    </testcase>
+    <testcase name="countOccurrences should return 1 for given input ([1, 1, 2, 1, 2, 3], 3)" time="0.0000" classname="should return 1 for given input ([1, 1, 2, 1, 2, 3], 3)">
+    </testcase>
+    <testcase name="countOccurrences should return 2 for given input ([&quot;a&quot;, &quot;a&quot;, &quot;c&quot;, &quot;c&quot;, &quot;c&quot;, &quot;b&quot;], &quot;a&quot;)" time="0.0000" classname="should return 2 for given input ([&quot;a&quot;, &quot;a&quot;, &quot;c&quot;, &quot;c&quot;, &quot;c&quot;, &quot;b&quot;], &quot;a&quot;)">
+    </testcase>
+    <testcase name="countOccurrences should return 0 for given input ([&quot;a&quot;, &quot;a&quot;, &quot;c&quot;, &quot;c&quot;, &quot;c&quot;, &quot;b&quot;], &quot;e&quot;)" time="0.0000" classname="should return 0 for given input ([&quot;a&quot;, &quot;a&quot;, &quot;c&quot;, &quot;c&quot;, &quot;c&quot;, &quot;b&quot;], &quot;e&quot;)">
+    </testcase>
+  </testsuite>
+</testsuites>

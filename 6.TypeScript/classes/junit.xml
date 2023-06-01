@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="2.0120" tests="25" failures="0">
+  <testsuite name="Root Suite" timestamp="2023-05-01T08:25:19" tests="0" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="car tests" timestamp="2023-05-01T08:25:19" tests="11" file="/Users/vadim/Documents/EPAM_UPSkill_Me/7.TypeScript/classes/test/index.ts" time="1.0080" failures="0">
+    <testcase name="car tests it should have car model name" time="0.0000" classname="it should have car model name">
+    </testcase>
+    <testcase name="car tests it should have car vendor name" time="0.0000" classname="it should have car vendor name">
+    </testcase>
+    <testcase name="car tests it should create car with drive interface" time="0.0010" classname="it should create car with drive interface">
+    </testcase>
+    <testcase name="car tests it should be no fuel in new car" time="0.0000" classname="it should be no fuel in new car">
+    </testcase>
+    <testcase name="car tests it should be stopped engine in new car" time="0.0000" classname="it should be stopped engine in new car">
+    </testcase>
+    <testcase name="car tests it should be full fuel tank after refill" time="0.0000" classname="it should be full fuel tank after refill">
+    </testcase>
+    <testcase name="car tests it should throw error when engine starts without fuel" time="0.0010" classname="it should throw error when engine starts without fuel">
+    </testcase>
+    <testcase name="car tests it should update engine status when it works" time="0.0010" classname="it should update engine status when it works">
+    </testcase>
+    <testcase name="car tests it should spend fuel when car engine starts" time="0.0000" classname="it should spend fuel when car engine starts">
+    </testcase>
+    <testcase name="car tests it should spend fuel when car engine works" time="1.0040" classname="it should spend fuel when car engine works">
+    </testcase>
+    <testcase name="car tests it should update engine status when park()" time="0.0010" classname="it should update engine status when park()">
+    </testcase>
+  </testsuite>
+  <testsuite name="custom vehicle tests" timestamp="2023-05-01T08:25:20" tests="10" file="/Users/vadim/Documents/EPAM_UPSkill_Me/7.TypeScript/classes/test/index.ts" time="1.0030" failures="0">
+    <testcase name="custom vehicle tests it should have car model name" time="0.0000" classname="it should have car model name">
+    </testcase>
+    <testcase name="custom vehicle tests it should have car vendor name" time="0.0000" classname="it should have car vendor name">
+    </testcase>
+    <testcase name="custom vehicle tests it should be no fuel in new plane" time="0.0000" classname="it should be no fuel in new plane">
+    </testcase>
+    <testcase name="custom vehicle tests it should be stopped engine in new plane" time="0.0000" classname="it should be stopped engine in new plane">
+    </testcase>
+    <testcase name="custom vehicle tests it should be full fuel tank after refill" time="0.0000" classname="it should be full fuel tank after refill">
+    </testcase>
+    <testcase name="custom vehicle tests it should throw error when plane engine starts without fuel" time="0.0010" classname="it should throw error when plane engine starts without fuel">
+    </testcase>
+    <testcase name="custom vehicle tests it should update plane engine status when it works" time="0.0000" classname="it should update plane engine status when it works">
+    </testcase>
+    <testcase name="custom vehicle tests it should spend fuel when plane engine starts" time="0.0000" classname="it should spend fuel when plane engine starts">
+    </testcase>
+    <testcase name="custom vehicle tests it should spend fuel when plane engine works" time="1.0010" classname="it should spend fuel when plane engine works">
+    </testcase>
+    <testcase name="custom vehicle tests it should update engine status when park()" time="0.0010" classname="it should update engine status when park()">
+    </testcase>
+  </testsuite>
+  <testsuite name="Counter tests" timestamp="2023-05-01T08:25:21" tests="4" file="/Users/vadim/Documents/EPAM_UPSkill_Me/7.TypeScript/classes/test/index.ts" time="0.0010" failures="0">
+    <testcase name="Counter tests should increase value of single counter to 2" time="0.0010" classname="should increase value of single counter to 2">
+    </testcase>
+    <testcase name="Counter tests should increase value of multiple counters to 3" time="0.0000" classname="should increase value of multiple counters to 3">
+    </testcase>
+    <testcase name="Counter tests should decrease value of single counter to -2" time="0.0000" classname="should decrease value of single counter to -2">
+    </testcase>
+    <testcase name="Counter tests should destroy counter instance" time="0.0000" classname="should destroy counter instance">
+    </testcase>
+  </testsuite>
+</testsuites>

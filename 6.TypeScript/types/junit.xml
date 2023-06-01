@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.0020" tests="12" failures="0">
+  <testsuite name="Root Suite" timestamp="2023-04-27T17:18:00" tests="0" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="getDaysToNewYear" timestamp="2023-04-27T17:18:00" tests="6" file="/Users/vadim/Documents/EPAM_UPSkill_Me/7.TypeScript/types/test/index.ts" time="0.0010" failures="0">
+    <testcase name="getDaysToNewYear should return 1 for given input &quot;31.12.2022&quot;" time="0.0010" classname="should return 1 for given input &quot;31.12.2022&quot;">
+    </testcase>
+    <testcase name="getDaysToNewYear should return 71 for given input &quot;22.10.2022&quot;" time="0.0000" classname="should return 71 for given input &quot;22.10.2022&quot;">
+    </testcase>
+    <testcase name="getDaysToNewYear should return 608 for given input &quot;03.05.2021&quot;" time="0.0000" classname="should return 608 for given input &quot;03.05.2021&quot;">
+    </testcase>
+    <testcase name="getDaysToNewYear should return 1 for given input new Date(&quot;12-31-2022&quot;)" time="0.0000" classname="should return 1 for given input new Date(&quot;12-31-2022&quot;)">
+    </testcase>
+    <testcase name="getDaysToNewYear should return 200 for given input new Date(2022, 5, 15)" time="0.0000" classname="should return 200 for given input new Date(2022, 5, 15)">
+    </testcase>
+    <testcase name="getDaysToNewYear should return 3586 for given input new Date(2013, 2, 8)" time="0.0000" classname="should return 3586 for given input new Date(2013, 2, 8)">
+    </testcase>
+  </testsuite>
+  <testsuite name="lastToFirst" timestamp="2023-04-27T17:18:00" tests="5" file="/Users/vadim/Documents/EPAM_UPSkill_Me/7.TypeScript/types/test/index.ts" time="0.0000" failures="0">
+    <testcase name="lastToFirst should return &quot;loop&quot; for given input &quot;pool&quot;" time="0.0000" classname="should return &quot;loop&quot; for given input &quot;pool&quot;">
+    </testcase>
+    <testcase name="lastToFirst should return &quot;test&quot; for given input &quot;test&quot;" time="0.0000" classname="should return &quot;test&quot; for given input &quot;test&quot;">
+    </testcase>
+    <testcase name="lastToFirst should return &quot;version&quot; for given input &quot;nersiov&quot;" time="0.0000" classname="should return &quot;version&quot; for given input &quot;nersiov&quot;">
+    </testcase>
+    <testcase name="lastToFirst should return &quot;abc&quot; for given input &quot;cba&quot;" time="0.0000" classname="should return &quot;abc&quot; for given input &quot;cba&quot;">
+    </testcase>
+    <testcase name="lastToFirst should return &quot;b&quot; for given input &quot;b&quot;" time="0.0000" classname="should return &quot;b&quot; for given input &quot;b&quot;">
+    </testcase>
+  </testsuite>
+  <testsuite name="groupOrgUsers" timestamp="2023-04-27T17:18:00" tests="1" file="/Users/vadim/Documents/EPAM_UPSkill_Me/7.TypeScript/types/test/index.ts" time="0.0010" failures="0">
+    <testcase name="groupOrgUsers should group demo users data" time="0.0010" classname="should group demo users data">
+    </testcase>
+  </testsuite>
+</testsuites>
