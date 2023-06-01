@@ -58,13 +58,3 @@ Write your code in `src/index.js.
 5. To install all dependencies use [`npm install`](https://docs.npmjs.com/cli/install)  
 6. Run `npm test` or `npm run test:local` in the command line  
 7. You will see the number of passing and failing tests
-
-## Submit to [AutoCode](https://autocode.lab.epam.com/)
-1. Open [AutoCode](https://autocode.lab.epam.com/) and login
-2. Navigate to the [your course page](https://autocode.lab.epam.com/student/group/80), `subscribe (if not subscribed)` and navigate to the appropriate task 
-3. Select your task (async)
-4. Press the `Check task` button and enjoy, results will be available in few minutes
-
-### Notes
-1. We recommend you to use nodejs of version 18 or lower. If you using are any of the features which are not supported by v18, the score won't be submitted.
-2. Each of your test case is limited to 30 sec.
